@@ -14,7 +14,7 @@ if [[ -d dev ]]; then
   cd ..
 fi
 
-git clone --depth=1 https://github.com/propedicab/nomadian
+git clone --depth=1 https://github.com/xorgnak/nomadian
 cd nomadian
 source nomad.sh
 cd ..

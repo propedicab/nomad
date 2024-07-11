@@ -12,14 +12,10 @@ cd bin
 source nomad.sh
 cd ..
 
-# # download current device firmware
-# git clone --depth=1 https://github.com/propedicab/dev
-# cd dev
-# source nomad.sh
-# cd ..
-
-cd bin/pvector
-
-ruby bin/console
+# download current device firmware
+git clone --depth=1 https://github.com/propedicab/dev
+cd dev
+source nomad.sh
+cd ..
 
 echo "[NOMAD] Done!"

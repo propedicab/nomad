@@ -18,4 +18,8 @@ cd dev
 source nomad.sh
 cd ..
 
+cd bin/pvector
+
+ruby bin/console
+
 echo "[NOMAD] Done!"

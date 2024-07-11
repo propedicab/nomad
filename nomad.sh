@@ -1,22 +1,18 @@
 #!/bin/bash
 
-if [[ -d bin ]]; then
-  git clone --depth=1 https://github.com/propedicab/bin
-  cd bin
-  source nomad.sh
-  cd ..
-fi
-
-if [[ -d dev ]]; then
-  git clone --depth=1 https://github.com/propedicab/dev
-  cd dev
-  source nomad.sh
-  cd ..
-fi
+git clone --depth=1 https://github.com/propedicab/bin
+cd bin
+source nomad.sh
+cd ..
+  
+git clone --depth=1 https://github.com/propedicab/dev
+cd dev
+source nomad.sh
+cd ..
 
 git clone --depth=1 https://github.com/xorgnak/nomadian
 cd nomadian
-source nomad.sh
+source nomadian.sh
 cd ..
 
 echo "[NOMAD] Done!"

@@ -10,4 +10,4 @@ cd nomad
 
 chmod +x nomad.sh
 
-./nomad.sh
+bash nomad.sh

@@ -1,2 +1,13 @@
 #!/bin/sh
-sudo apt install sudo git && rm -fR nomad && git clone --depth=1 https://github.com/propedicab/nomad && cd nomad && chmod +x nomad.sh && ./nomad.sh
+
+sudo apt install sudo git
+
+rm -fR nomad
+
+git clone --depth=1 https://github.com/propedicab/nomad
+
+cd nomad 
+
+chmod +x nomad.sh
+
+./nomad.sh

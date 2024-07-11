@@ -1,13 +1,14 @@
 #!/bin/sh
-
+echo "[NOMAD][INIT] ok."
 sudo apt install sudo git
-
+echo "[NOMAD][INIT] apt."
 rm -fR nomad
-
+echo "[NOMAD][INIT] rm."
 git clone --depth=1 https://github.com/propedicab/nomad
-
+echo "[NOMAD][INIT] git."
 cd nomad 
-
+echo "[NOMAD][INIT] cd."
 chmod +x nomad.sh
-
+echo "[NOMAD][INIT] +x."
 bash nomad.sh
+

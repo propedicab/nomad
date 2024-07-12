@@ -22,8 +22,6 @@ rm -fR nomadian
 
 rm init
 
-nomad.sh
-
 chmod +x boot
 
 echo "[NOMAD] overlays may be added by passing a script to this one to be executed from within this enviroment."
